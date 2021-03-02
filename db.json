@@ -1,19 +1,25 @@
 {
-  "topics": [
-    {
-      "id": 1,
-      "title": "to learn angular",
-      "completed": false
+  "args": {
+    "appBar": {
+      "args": {
+        "title": {
+          "args": {
+            "text": "Dynamic Widget"
+          },
+          "type": "text"
+        }
+      },
+      "type": "app_bar"
     },
-    {
-      "id": 2,
-      "title": "to learn french",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "title": "to learn some",
-      "completed": false
+    "body": {
+      "child": {
+        "args": {
+          "text": "This is a very important message!"
+        },
+        "type": "text"
+      },
+      "type": "center"
     }
-  ]
+  },
+  "type": "scaffold"
 }
