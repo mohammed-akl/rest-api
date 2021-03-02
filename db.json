@@ -1,3 +1,25 @@
 {
-  
+  "args": {
+    "appBar": {
+      "args": {
+        "title": {
+          "args": {
+            "text": "Dynamic Widget"
+          },
+          "type": "text"
+        }
+      },
+      "type": "app_bar"
+    },
+    "body": {
+      "child": {
+        "args": {
+          "text": "This is a very important message!"
+        },
+        "type": "text"
+      },
+      "type": "center"
+    }
+  },
+  "type": "scaffold"
 }
